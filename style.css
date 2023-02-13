@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  @apply flex justify-center;
+}
+
+.input-container {
+  @apply flex
+}
+
+#todo-input {
+  @apply border border-gray-300 rounded-lg p-2 block;
+}
+
+button {
+  @apply border border-gray-300 rounded-lg hover:bg-black/40
+}
